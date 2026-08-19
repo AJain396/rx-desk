@@ -1,0 +1,64 @@
+name: Build & deploy RX Desk
+
+# One workflow does everything:
+#   - rebuilds and redeploys whenever you add or edit a post
+#   - refreshes the market ticker and RX newswire on a schedule
+on:
+  push:
+    branches: [main]
+  schedule:
+    # every 30 min, 13:00-21:00 UTC, Mon-Fri  (about 9am-5pm ET)
+    - cron: '*/30 13-21 * * 1-5'
+    # once a day on weekends so the tape isn't stale on Monday morning
+    - cron: '0 15 * * 0,6'
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build posts.json from posts/*.md
+        run: node scripts/build-posts.js
+
+      # continue-on-error: a flaky data source must never block a deploy
+      - name: Fetch market quotes
+        continue-on-error: true
+        run: node scripts/fetch-market.js
+
+      - name: Fetch RX newswire
+        continue-on-error: true
+        run: node scripts/fetch-news.js
+
+      - name: Commit refreshed data
+        continue-on-error: true
+        run: |
+          git config user.name  "rx-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "data: refresh market + news [skip ci]"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deploy
+        uses: actions/deploy-pages@v4
