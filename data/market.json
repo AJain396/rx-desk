@@ -1,0 +1,20 @@
+{
+  "updated": "2026-08-15T13:30:00.000Z",
+  "_note": "Seed data. Overwritten by scripts/fetch-market.js on every GitHub Actions run.",
+  "quotes": [
+    {"symbol":"^GSPC","label":"S&P 500","price":6412.33,"change":18.4,"changePercent":0.29,"source":"seed"},
+    {"symbol":"^DJI","label":"DOW","price":45120.11,"change":-92.6,"changePercent":-0.20,"source":"seed"},
+    {"symbol":"^IXIC","label":"NASDAQ","price":21344.87,"change":121.9,"changePercent":0.57,"source":"seed"},
+    {"symbol":"^RUT","label":"RUSSELL","price":2318.44,"change":-6.1,"changePercent":-0.26,"source":"seed"},
+    {"symbol":"^VIX","label":"VIX","price":14.82,"change":-0.41,"changePercent":-2.69,"source":"seed"},
+    {"symbol":"^TNX","label":"US 10Y","price":4.213,"change":0.022,"changePercent":0.52,"source":"seed"},
+    {"symbol":"HYG","label":"HYG","price":80.14,"change":0.09,"changePercent":0.11,"source":"seed"},
+    {"symbol":"JNK","label":"JNK","price":96.72,"change":0.12,"changePercent":0.12,"source":"seed"},
+    {"symbol":"BKLN","label":"BKLN","price":21.06,"change":-0.02,"changePercent":-0.09,"source":"seed"},
+    {"symbol":"LQD","label":"LQD","price":110.38,"change":0.24,"changePercent":0.22,"source":"seed"},
+    {"symbol":"CL=F","label":"CRUDE","price":68.41,"change":-0.83,"changePercent":-1.20,"source":"seed"},
+    {"symbol":"GC=F","label":"GOLD","price":3388.20,"change":14.7,"changePercent":0.44,"source":"seed"},
+    {"symbol":"DX-Y.NYB","label":"DXY","price":98.22,"change":-0.11,"changePercent":-0.11,"source":"seed"},
+    {"symbol":"BTC-USD","label":"BTC","price":117430.0,"change":1890.0,"changePercent":1.64,"source":"seed"}
+  ]
+}

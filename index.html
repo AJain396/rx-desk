@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>RX Desk — Restructuring, Distressed & Special Situations</title>
+<meta name="description" content="Notes on restructuring, chapter 11, liability management and distressed credit." />
+
+<!-- Open Graph -->
+<meta property="og:title" content="RX Desk" />
+<meta property="og:description" content="Notes on restructuring, chapter 11, liability management and distressed credit." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23223140'/><text y='70' x='50' text-anchor='middle' font-size='58' font-family='monospace' fill='%237fb2d8'>R</text></svg>" />
+</head>
+<body>
+
+<!-- ============ AMBIENT BACKGROUND ============ -->
+<div class="bg-field" aria-hidden="true">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="grid-lines"></div>
+</div>
+
+<!-- ============ MARKET TICKER ============ -->
+<div class="ticker" id="ticker" aria-label="Market data">
+  <div class="ticker-label">
+    <span class="pulse"></span><span>MARKETS</span>
+  </div>
+  <div class="ticker-viewport">
+    <div class="ticker-track" id="tickerTrack">
+      <span class="tick tick-loading">loading market data…</span>
+    </div>
+  </div>
+  <div class="ticker-stamp" id="tickerStamp"></div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="masthead">
+  <a class="brand" href="#/" data-nav>
+    <span class="brand-mark">RX</span>
+    <span class="brand-text">
+      <span class="brand-name">RX DESK</span>
+      <span class="brand-sub">restructuring · distressed · special situations</span>
+    </span>
+  </a>
+
+  <nav class="nav">
+    <a href="#/" data-nav class="nav-link active">Feed</a>
+    <a href="#/history" data-nav class="nav-link">History</a>
+    <a href="#/about" data-nav class="nav-link">About</a>
+    <button class="theme-toggle" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">◐</button>
+  </nav>
+</header>
+
+<!-- ============ SEARCH ============ -->
+<div class="searchwrap">
+  <div class="searchbar">
+    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input id="search" type="search" placeholder="Search posts — issuer, docket, topic, tag…" autocomplete="off" spellcheck="false" />
+    <kbd class="kbd">/</kbd>
+  </div>
+</div>
+
+<main id="app">
+
+  <!-- ============ VIEW: FEED ============ -->
+  <section class="view" id="view-feed">
+
+    <!-- RX NEWS — 6 tiles, 3 over 3 -->
+    <section class="newsblock">
+      <div class="section-head">
+        <h2>RX Newswire</h2>
+        <span class="section-rule"></span>
+        <span class="section-meta" id="newsStamp"></span>
+      </div>
+      <div class="newsgrid" id="newsgrid">
+        <!-- 6 skeleton tiles -->
+        <article class="newstile skel"></article>
+        <article class="newstile skel"></article>
+        <article class="newstile skel"></article>
+        <article class="newstile skel"></article>
+        <article class="newstile skel"></article>
+        <article class="newstile skel"></article>
+      </div>
+    </section>
+
+    <!-- FLOATING POSTS -->
+    <section class="feedblock">
+      <div class="section-head">
+        <h2>Posts</h2>
+        <span class="section-rule"></span>
+        <span class="section-meta" id="feedCount"></span>
+      </div>
+      <div class="floatfeed" id="floatfeed"></div>
+      <div class="empty" id="feedEmpty" hidden>No posts match that search.</div>
+    </section>
+  </section>
+
+  <!-- ============ VIEW: HISTORY ============ -->
+  <section class="view" id="view-history" hidden>
+    <div class="section-head">
+      <h2>History</h2>
+      <span class="section-rule"></span>
+      <span class="section-meta" id="histCount"></span>
+    </div>
+    <div class="historywrap">
+      <aside class="yearrail" id="yearrail"></aside>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- ============ VIEW: POST ============ -->
+  <section class="view" id="view-post" hidden>
+    <a class="backlink" href="#/" data-nav>← back to feed</a>
+    <article class="post-full glass" id="postFull"></article>
+  </section>
+
+  <!-- ============ VIEW: ABOUT ============ -->
+  <section class="view" id="view-about" hidden>
+    <article class="post-full glass">
+      <h1>About</h1>
+      <p>RX Desk is a running notebook on restructuring: chapter 11 dockets, liability management
+      exercises, creditor coalitions, DIP financings, and the rest of the distressed toolkit.</p>
+      <p>Everything here is commentary, not investment or legal advice.</p>
+      <p class="muted">Edit this section in <code>index.html</code>.</p>
+    </article>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <span>© <span id="year"></span> RX Desk</span>
+  <span class="dot">·</span>
+  <span>Built static. Hosted on GitHub Pages.</span>
+  <span class="dot">·</span>
+  <a href="#/history" data-nav>Archive</a>
+</footer>
+
+<script src="assets/md.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

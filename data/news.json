@@ -1,0 +1,54 @@
+{
+  "updated": "2026-08-15T12:00:00Z",
+  "_note": "PLACEHOLDER tiles: illustrative issuer names, publisher names shown for layout only, no links. Replaced with real linked headlines on the first run of scripts/fetch-news.js.",
+  "items": [
+    {
+      "title": "Northline Retail Group files chapter 11 in Delaware with $1.4bn of funded debt",
+      "snippet": "Petition lists 340 leases and a $210m first-day DIP request; first-day hearing set for Thursday.",
+      "category": "CHAPTER 11",
+      "link": null,
+      "source": "Reuters",
+      "published": "2026-08-15T09:00:00Z"
+    },
+    {
+      "title": "Judge approves $875m DIP for Cascade Energy Partners over committee objection",
+      "snippet": "Order includes a 1.5:1 roll-up and a 120-day milestone to file a plan.",
+      "category": "DIP",
+      "link": null,
+      "source": "Bloomberg",
+      "published": "2026-08-15T06:00:00Z"
+    },
+    {
+      "title": "Ad hoc lender group signs cooperation agreement covering 68% of Meridian term loan",
+      "snippet": "Signatories agree not to participate in any non-pro-rata transaction for 180 days.",
+      "category": "LME",
+      "link": null,
+      "source": "Law360",
+      "published": "2026-08-15T01:00:00Z"
+    },
+    {
+      "title": "Confirmation hearing set for December after disclosure statement approved",
+      "snippet": "Court declined to schedule a separate valuation trial, citing DIP budget constraints.",
+      "category": "PLAN",
+      "link": null,
+      "source": "Debtwire",
+      "published": "2026-08-14T17:00:00Z"
+    },
+    {
+      "title": "Harbour Media completes distressed exchange at 62 cents on the dollar",
+      "snippet": "Participation reached 91%; the stub 2027 notes remain outstanding at the holdco.",
+      "category": "DISTRESSED",
+      "link": null,
+      "source": "Financial Times",
+      "published": "2026-08-14T09:00:00Z"
+    },
+    {
+      "title": "Stalking horse bid of $310m set for chapter 11 363 auction next month",
+      "snippet": "Break-up fee of 3% approved; competing bids due two weeks before the auction date.",
+      "category": "ASSET SALE",
+      "link": null,
+      "source": "Octus",
+      "published": "2026-08-14T02:00:00Z"
+    }
+  ]
+}
