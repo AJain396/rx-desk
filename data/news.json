@@ -1,54 +1,149 @@
 {
-  "updated": "2026-08-15T12:00:00Z",
-  "_note": "PLACEHOLDER tiles: illustrative issuer names, publisher names shown for layout only, no links. Replaced with real linked headlines on the first run of scripts/fetch-news.js.",
+  "updated": "2026-08-19T15:26:24.671Z",
   "items": [
     {
-      "title": "Northline Retail Group files chapter 11 in Delaware with $1.4bn of funded debt",
-      "snippet": "Petition lists 340 leases and a $210m first-day DIP request; first-day hearing set for Thursday.",
-      "category": "CHAPTER 11",
-      "link": null,
-      "source": "Reuters",
-      "published": "2026-08-15T09:00:00Z"
-    },
-    {
-      "title": "Judge approves $875m DIP for Cascade Energy Partners over committee objection",
-      "snippet": "Order includes a 1.5:1 roll-up and a 120-day milestone to file a plan.",
-      "category": "DIP",
-      "link": null,
-      "source": "Bloomberg",
-      "published": "2026-08-15T06:00:00Z"
-    },
-    {
-      "title": "Ad hoc lender group signs cooperation agreement covering 68% of Meridian term loan",
-      "snippet": "Signatories agree not to participate in any non-pro-rata transaction for 180 days.",
-      "category": "LME",
-      "link": null,
-      "source": "Law360",
-      "published": "2026-08-15T01:00:00Z"
-    },
-    {
-      "title": "Confirmation hearing set for December after disclosure statement approved",
-      "snippet": "Court declined to schedule a separate valuation trial, citing DIP budget constraints.",
+      "title": "Braskem Idesa, S.A.P.I takes strategic action through consensual restructuring to reduce its debt by more than US$920 MM",
+      "snippet": "",
       "category": "PLAN",
-      "link": null,
-      "source": "Debtwire",
-      "published": "2026-08-14T17:00:00Z"
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNYVZCWXRoeEMtQjZKdXFmMVZua0FlSl8tMTJGZUZ1R0cxZ3JrTUVtbC1DenRscXVvTlI5TEliU0lJNmM5ZVEzbVNXM2JGNlIzV0daREpWcEZ0YWxPVnEydFdaaC0wTktFdWJLNktJbURQOWJJZFVTaU1Ja05RMDBsOHh2T2gyeUl4ZFFmLTNRZGdrbjY0Rkc3MjdnNUZoS3VuZHhfZ0hhZEp4alJqV3BrSzV5MkFSWVVCTnZsVmtTbTZJZWZOWEc4ckFyUklNNXczSFl6YzhQQVExZzFLYURpQTF2T29rSUUwTVVvTHpyd0ZKVlF3eDJQTkZuTTZjQkI1VHZ6WlJVMURPRGFG?oc=5",
+      "source": "TradingView",
+      "published": "2026-08-18T05:32:00.000Z"
     },
     {
-      "title": "Harbour Media completes distressed exchange at 62 cents on the dollar",
-      "snippet": "Participation reached 91%; the stub 2027 notes remain outstanding at the holdco.",
+      "title": "Branicks Secures Creditor Lifeline, But S&P's Default Call Exposes the Gap Between Ballot and Balanc",
+      "snippet": "",
       "category": "DISTRESSED",
-      "link": null,
-      "source": "Financial Times",
-      "published": "2026-08-14T09:00:00Z"
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTWNXNU9SYVc0R3hOM0hhaDA1R0lKMWhxUVN2UVVlbGpoU28yNkxlYmVGTEx0Y1Nta0xVMnU3enViSkJoaUxhNFV1bkJqcWtldVFMRTlscEhVdjhJSmdHdm95bjVVcTFOVEFJZEswSE80ekdnWnBGMWhDTjhmMlhwV0pFT2FucnBpM1NjaXZnd3BnNkEySjJ6N1FISGVabWJmSlJyZWhjNWl6N3NLUDhKdkVfSVdISE1QUUZQeEp1czdCRm5pTE1JZlBWa2xBQldVa011WHFCR2dfWHVaYkE?oc=5",
+      "source": "AD HOC NEWS",
+      "published": "2026-08-19T00:54:49.000Z"
     },
     {
-      "title": "Stalking horse bid of $310m set for chapter 11 363 auction next month",
-      "snippet": "Break-up fee of 3% approved; competing bids due two weeks before the auction date.",
+      "title": "Braskem’s Mexico Unit Files for Prepackaged Bankruptcy in US",
+      "snippet": "",
+      "category": "CHAPTER 11",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXBONlJObkpsRXVtUzd5OGJwYXVIdWtTalYtWmdyelItTktJcnNXZWRLR091X0NYMExRUGZlWWZoa2tZd1ZjQndYdFV3LVBiUU1rTGUwNDNWdDlUdkNPcTkwaHdRendQazdqM3hkVjVjSnhrY1FRWkNyVVlFZkw2RnctcmtYZ09CWklKeGtJSEZ5V21TejEySm9HY3FxTmlnUnA3cWUxSDhzbDBCbWZr?oc=5",
+      "source": "bloomberg.com",
+      "published": "2026-08-18T13:44:30.000Z"
+    },
+    {
+      "title": "Braskem Idesa Cuts Debt by $920 Million in Creditor Deal; Eyes Chapter 11 Exit Within 60–90 Days",
+      "snippet": "<a…",
+      "category": "CREDITORS",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xMG80Y3NUUnZiZ21aVkN6Sm9yYkpoX1c2TmRXSm5hYlhDZnBCaWtZWDBXWDFXc3JrSE1fazgxNWFxdjNjYlBXdC1JMDFvelZyQWtnX2cweHBlRTEwVXpYTmlXeEVhZnRkWEstaGlJREM4TXBfSEE?oc=5",
+      "source": "finance.biggo.com",
+      "published": "2026-08-18T06:05:00.000Z"
+    },
+    {
+      "title": "PTC Therapeutics’ $211M Bid Wins Bankruptcy Auction for Sangamo Gene Therapy",
+      "snippet": "",
       "category": "ASSET SALE",
-      "link": null,
-      "source": "Octus",
-      "published": "2026-08-14T02:00:00Z"
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnZOMjBRWkFoaWpJZ1pod0tvNGZUYUJRbFFvQmdJTUZ1VUVzNUlaWG96RWFpQURDLUdRNnBQNF9mTEt4ZzB2TnZlNld4UktpN2V5cXFYeUFRQmNWdFNsTEVhTmVWd2llTURGV2o3TWh2cVh6WVotTE81NnVMSC1DR1NKekd4STRyMWZUY1k3N0NyT3hyVnBjNFpNeTNtWVJPRUlOWFQwczg4RkRaeU82VEpDSnhYSHM3Zzd0T3JUdWc3U093RG1pNDR5VDRjNWszVHZNbEpVUXk1b0xDT21LMDRkcmo3VkpERUtpMnhrdw?oc=5",
+      "source": "MedCity News",
+      "published": "2026-08-13T19:05:55.000Z"
+    },
+    {
+      "title": "Squire Patton Boggs Adds Oksana Lashko In New York As Restructuring & Insolvency Practice Expands Globally",
+      "snippet": "",
+      "category": "LME",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTE1ZSnpuSG1NZWc3dGJNdXY5ZUo2UHBpYzhtNDV2VVdnN01SYnd1cFBJMTlyM2JLUGd4NFJ4S05yRzliS0MzSHJvLWlMcko1ZFEtMndTX0RGb3ljYkhUanVxMXJCSFhWNHkxUWYxRmRwSHJWME83Zmxwc2tlN2hVaVNURklPTW5nNHdnYnp5UDZ2bGhfeWRSdVgyQmZDUUVxOE5zVGF1T1lwbUZaOF83OUJLZUtTVkRZMU5jLTlsdklOUdIBxwFBVV95cUxQZWhiOU5qZUYzYkYwTHZmaUhDSTYtYWh6MEVyX2JodkthbF9kckl4ejBwUVRNOVBuTDh0WVR3TmdZLU9CVnpTa2NDUkIwbEZVOVhMTEo3T0xXdklKN3NaUUNFSHlLS29scDgtMGVsVnZJWkRWcWRqejNaMUFiTmZTRUNlWVRjUWRmVUc2Z3E1OUh6a2lEYjdGekliME5uclpLSlJWaWZhUzZHS0JMYXd0ekNJd2ZVSm1pZDd4NGVwRDBaVGhLbGJZ?oc=5",
+      "source": "Pulse 2.0",
+      "published": "2026-08-17T14:17:36.000Z"
+    },
+    {
+      "title": "Trinseo Burns Cash as Restructuring Costs Deepen Loss",
+      "snippet": "",
+      "category": "DIP",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUnRRcGllc2t2Y3FzOHdHU1JNZFEwcGVoYzB5QmFjT2U3NlFhZlQyM3dqeTRyU0phR1c4Zkhjcml0alJhNjV3OFBrcmthQ0x0dWt5OUR0UDNEVEpnaFQ4ejVONkluaXgtWllGekllQlpzTXF1NWNEV2VaUU0ta2hMOWktYkRsS1NfOVFlcVp0eXBPUWQ4QXhJT3NMdThubDRjUDBOUnZR?oc=5",
+      "source": "MyChesCo",
+      "published": "2026-08-17T15:00:00.000Z"
+    },
+    {
+      "title": "Crypto Miner Vulcan Warns of Bankruptcy Risk as $33M Debt Looms",
+      "snippet": "<a…",
+      "category": "DISTRESSED",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUWNpNDFRZmFFU2RlWm1yenZpeXM5QVhKbVduTWp1NWJXRmM2ZTNvUWZ4VXZPZ0l3dlBVUnpfXzdzU2w3NGRENXF2LUJvRjdVSzFmQVdmckNBQ0UzOHdxZ0dScklTaVdFMWpHX0VHYTRxUWNDMUEwZVVRUWxPVS1UalQ4NGpVWkNvR1BQQ04xQWo5ZlY5aHNQWEhDQVM?oc=5",
+      "source": "KuCoin",
+      "published": "2026-08-17T21:53:24.000Z"
+    },
+    {
+      "title": "Rebel Creamery files for Chapter 11 bankruptcy after lawsuit",
+      "snippet": "",
+      "category": "CHAPTER 11",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdUpzZm92UTJiSGRMQ2hsS3BVZ3pfQWFGTGsybktLY1VLZUdWM2ZqVnRJUzNkRXJWTFV6MV9BNi1sc05LTW1pRWc1WF82aGR6eFJtZTllX2N0YzVUeUFZM2VReXk1WFlsTkdpZkZZakozYnVueXVmU01weDhCNk5MbWtmSjRUWHQ5M193Vkkweng5ZWRRdzlsdlR3eFFHVlA3UXNWRW9Kbl8zUnQ4bGV0cERvSjJicm5JODU40gHPAUFVX3lxTE5BdmJONFBQVk1ibGQ1eGhSTGYxblZreWFPUVB2ZWlYLUxDM1pSZkhQTTlvSUd5bmtzVkJ0NG11SG1WT0Z1NU80WVM5VWstcVBtdFp4M01mQ0w1cDRBX3NzM2tjTXd0QWVjR0hlcVNhYUJmeFRhbjlOMVFfd2RMM1pUbmF5Q2JtLXRUNy1KWkU5cExNbFhLaHZYQ2lubm5qb3h0TDdGdUJLTXMyZGVTZDdQckhIX0JqLUJod29RUW5KUmtfNjN1ejlQeWF4OVBBVQ?oc=5",
+      "source": "WFTV",
+      "published": "2026-08-17T16:23:41.000Z"
+    },
+    {
+      "title": "Bankrupt Sangamo offloads assets to Lilly, PTC in $161M sale",
+      "snippet": "<a…",
+      "category": "PLAN",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaWJFLVNlNDMtSzlNUC1KMkRMcDdFWVVVTGptQ2hib1ZsbTVhQVRfNUFtY2hUa3VuVlBJaTdab0p2ZHQ0VWNwNXBWdEdFWEhvUkpJN3JxNWc4NktfNzYxamU1c2dZN25aYng2MlI5bjBXUVp4dnhJMUVHdmtJUktoRVFZdkJXVHotWUpHdGVIWE5zSVU?oc=5",
+      "source": "BioSpace",
+      "published": "2026-08-13T11:25:58.000Z"
+    },
+    {
+      "title": "Bankrupt Sangamo scores at least $163 million in asset sale, which had two big winners",
+      "snippet": "",
+      "category": "ASSET SALE",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUlkxTDhxSTYzOExXNGVZWnJYUGNWQV9lM25feWZ5LVBwYjdCbkpoMll6RjhJdlRLUFk2cG5lS2JlY25BZ3pqa3VTWGZZc0wwWDNZRjB0WVRZWnA1dy03MW9DTGZTb09YMkU0cG1mVXE5TEF4Ulc2UmxScEw4ZlZfTXpYOEE4azdDQ0lKcW5STjFfYkpvSjBsbElkbnJGSWNNTUszT2RR?oc=5",
+      "source": "The Business Journals",
+      "published": "2026-08-12T21:54:00.000Z"
+    },
+    {
+      "title": "Diamond Bankruptcy Update: The Final Mass Mailout To 1301 Creditors",
+      "snippet": "",
+      "category": "CREDITORS",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbGpXS205QjF4RmsyV3JHM2RhX3VDbWtwMllKdDVGZ3drVG9SZEdpTUYzMGFOOWEwTHluX0w2Nnk2ZDkzUWZ0dTRzUFFWNko2RHdlQUw5clFVOTNYM2lPNEdtU3VFYmNuVG4wOHg4S2dyTGlBLVRUZTQ2VXRMY210cVBieG13SzY4ZjJxZ0hmMTFtdTJyNzEwSmpmc2Q0Y3BX?oc=5",
+      "source": "Bleeding Cool News",
+      "published": "2026-08-18T12:57:17.000Z"
+    },
+    {
+      "title": "When a Portfolio Company is Under Stress: Preparing for Liability Management and Other Capital Solutions",
+      "snippet": "",
+      "category": "LME",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSm41STBqREtzSVlVNlNvM1c4RnBsYklWX095cDhHZ1ZsRUlJdmRYN1FzX0RPaUF0bVdEdGFqU01XeGRwXzdsa2hCZnNsakM3X1VBbDc4SkpTZUhEUjVtdDJpejBVSm1xdWtsb0lHMFAtYjJLT1BRNTZNV0w3ZlpDR0xYSXIzQkZwaHJWeWFiX1duczN4dlpHTGhna2ZVdzdOb1F0elVTQmY2N2tWZ0hqdDBtZ3BNUXpMdmJpWVF3Rk1nNksyaWx6aW8xMjgtU0g2WktQbVhIZEtZQ3ZwekowbEZUOFlabktv?oc=5",
+      "source": "Law.com",
+      "published": "2026-08-17T11:00:00.000Z"
+    },
+    {
+      "title": "Montgomery's Jackson Hospital plans to exit bankruptcy, signs new contract with Blue Cross",
+      "snippet": "",
+      "category": "PLAN",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdXQ2RkFjOXJKTWIzblc5eUdJeDQ5NGFHMnB3NTRpaU91ekMxc2JBYzc0bGZNVENrYi16Yko5S2I1X0ltaXNPQ1ZZUVZzTDI3SDFJcWJCZENYd0VWOVFqVGp2N2owY2xUQVVzd01qeTRDT1BoTjk0T0g0ZWZnaEU1NE1TT0RoMGVaRnduY0FmWHBJaXI4NUlVYUI1ckJjRjRWMjdIQ0MzcW0xZXc?oc=5",
+      "source": "1819news.com",
+      "published": "2026-08-18T00:28:22.000Z"
+    },
+    {
+      "title": "Moe's Southwest Grill closes 14 Florida restaurants after bankruptcy",
+      "snippet": "",
+      "category": "PLAN",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRmlLMXhjV2trb0hpVXM3elJiNDY5WFFZLUpLUjdNNlVoRDRTbGNnSWJQNk91NVJHUmRBR044OFBpSDhSRjhjdlpMQnJOUUJ3bEwwbWJ2Ni1rd0ZTRThCZ1NWVXNNekM2MUU4T3hiQnF3NHhnRmJoeVFyemVycndZbzBLVnZiaHBDNkktclpsU1VGQmY1RlpHVkVGMGN4ZmlhSkhMNDhneTZzRUZZNmg5Ump0YXVXb296Y2p5XzFFLWdOa0lr?oc=5",
+      "source": "The Florida Times-Union",
+      "published": "2026-08-17T17:28:17.000Z"
+    },
+    {
+      "title": "Lourdes University files for Chapter 11 bankruptcy protection",
+      "snippet": "",
+      "category": "CHAPTER 11",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUZEUzFnS0U1SWxjekc4bVloVHU5aGVQbk5LcGJjalRLX0ptVUtieGowaEU1QnpMT2ZSWmpPNWI4bmMwc0JzaU5TbHV5U2ZRbzN3M2pxa05tdzNpcVNPYnJneUh6eTlIUm5Fb29HOV9iODRkUldVZHdkSkRVaU1BbGNhM05TVGhRS04xOHBKRktjZmpaS0HSAaoBQVVfeXFMUHhNanA3aXlhWFNfT0VXdUpsaHZQN00td2ozdEFSS0MxT0xSell1amlWanc3WkM0QnU3NGl6c3FzYi12cG5xaGZKRE1uMVlnWVpJUVJYVlpISzNMTFIwaXp0SWNTZkhrc0hzcm40MHk3ZG9lWUVJXzI3T3VJVmF3bTdUZlRvSGZYZjN5dFRBRTRDZFNMSjRZQUZsV0dSREtnR2QwVWJVTjUzeHc?oc=5",
+      "source": "WTVG",
+      "published": "2026-08-10T07:00:00.000Z"
+    },
+    {
+      "title": "New York City parent of iconic Cafe Fiorello files for Chapter 11 bankruptcy",
+      "snippet": "",
+      "category": "CHAPTER 11",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2ZwMFAyMVduaEZMQnRZaDlNQ3hESU9vWjBMTklnM3A5ZEJSZFE4UkJMaV9LSlhQQ05adk9mQmduamlwbmZlRlFJQ1FSRGlXOUpPM1A2eHFTbU1RYmRTSTBIX1hTdXpRWGNuaWVQMkdVWkRZWUVtN0l3V2VmUk04UXZQUVZEVWZWX0dmZmFNM0tlS0RJSUl0NHlnYU5BWEpDNk9MdGx1ZEthWmFRSkZ2ekwtODFnRzB4Q0gzcw?oc=5",
+      "source": "Nation’s Restaurant News",
+      "published": "2026-08-10T07:00:00.000Z"
+    },
+    {
+      "title": "Well-Known Southern California Hardware Retailer Files for Chapter 11 Bankruptcy",
+      "snippet": "",
+      "category": "CHAPTER 11",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR3BCXzlaVjVYVzdGcG92VndabTNNcllTMnBhVnZyM3Q2RlVoclBTSUE3WFBzOWJTdy1zUWlRN1NaMTZ1VnZtSUVMd3ZUZ0lXTm82QjFSVmt1dzJhdGJmSEg2WjhMR0F0Wk45QldST1A2SjUwTGxjQnB5UnJTTWhUUWc3cW1zamRCbGVmWmNEWTZhRlk0NzNIY2NlMlUzNzBlWEtEYXdjcWh6bnJHeVNzYnRaMUJhdmV0?oc=5",
+      "source": "edhat",
+      "published": "2026-08-13T16:42:56.000Z"
     }
   ]
 }
