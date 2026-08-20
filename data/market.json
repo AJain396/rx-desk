@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T21:17:48.829Z",
+  "updated": "2026-08-20T21:50:02.774Z",
   "quotes": [
     {
       "symbol": "^GSPC",
@@ -85,32 +85,32 @@
       "symbol": "CL=F",
       "label": "CRUDE",
       "price": 86.21,
-      "change": 1.8199999999999932,
-      "changePercent": 2.156653631946905,
+      "change": -0.6200000000000045,
+      "changePercent": -0.714038926638264,
       "source": "yahoo/query1"
     },
     {
       "symbol": "GC=F",
       "label": "GOLD",
       "price": 4575.1,
-      "change": 29.800000000000182,
-      "changePercent": 0.6556222911579033,
+      "change": 3.7000000000007276,
+      "changePercent": 0.08093800586255256,
       "source": "yahoo/query1"
     },
     {
       "symbol": "DX-Y.NYB",
       "label": "DXY",
-      "price": 98.869,
-      "change": 0.036000000000001364,
-      "changePercent": 0.036425080691673196,
+      "price": 98.865,
+      "change": 0.031999999999996476,
+      "changePercent": 0.03237784950370471,
       "source": "yahoo/query1"
     },
     {
       "symbol": "BTC-USD",
       "label": "BTC",
-      "price": 72792.38,
-      "change": 3502.9400000000023,
-      "changePercent": 5.05551783937062,
+      "price": 72705.91,
+      "change": 3416.470000000001,
+      "changePercent": 4.930722488159813,
       "source": "yahoo/query1"
     }
   ]
