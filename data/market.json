@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T20:16:44.665Z",
+  "updated": "2026-08-20T20:52:56.084Z",
   "quotes": [
     {
       "symbol": "^GSPC",
@@ -28,17 +28,17 @@
     {
       "symbol": "^RUT",
       "label": "RUSSELL",
-      "price": 2992.443,
-      "change": -40.498999999999796,
-      "changePercent": -1.3353041370392111,
+      "price": 2992.434,
+      "change": -40.50799999999981,
+      "changePercent": -1.3356008786188398,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^VIX",
       "label": "VIX",
-      "price": 15.98,
-      "change": 1.0899999999999999,
-      "changePercent": 7.320349227669576,
+      "price": 16.01,
+      "change": 1.120000000000001,
+      "changePercent": 7.521826729348563,
       "source": "yahoo/query1"
     },
     {
@@ -84,33 +84,33 @@
     {
       "symbol": "CL=F",
       "label": "CRUDE",
-      "price": 86.61,
-      "change": 2.219999999999999,
-      "changePercent": 2.6306434411660136,
+      "price": 86.49,
+      "change": 2.0999999999999943,
+      "changePercent": 2.4884464984002777,
       "source": "yahoo/query1"
     },
     {
       "symbol": "GC=F",
       "label": "GOLD",
-      "price": 4582.2,
-      "change": 36.899999999999636,
-      "changePercent": 0.8118276021384646,
+      "price": 4574.1,
+      "change": 28.800000000000182,
+      "changePercent": 0.6336215431324705,
       "source": "yahoo/query1"
     },
     {
       "symbol": "DX-Y.NYB",
       "label": "DXY",
-      "price": 98.881,
-      "change": 0.04800000000000182,
-      "changePercent": 0.04856677425556425,
+      "price": 98.872,
+      "change": 0.03900000000000148,
+      "changePercent": 0.03946050408264596,
       "source": "yahoo/query1"
     },
     {
       "symbol": "BTC-USD",
       "label": "BTC",
-      "price": 72677.12,
-      "change": 3387.679999999993,
-      "changePercent": 4.889172145134949,
+      "price": 72621.5,
+      "change": 3332.0599999999977,
+      "changePercent": 4.808900172955644,
       "source": "yahoo/query1"
     }
   ]
