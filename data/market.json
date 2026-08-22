@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T21:45:20.426Z",
+  "updated": "2026-08-22T15:15:58.814Z",
   "quotes": [
     {
       "symbol": "^GSPC",
@@ -12,9 +12,9 @@
     {
       "symbol": "^DJI",
       "label": "DOW",
-      "price": 53277.01,
+      "price": 53277,
       "change": 517.8000000000029,
-      "changePercent": 0.9814400177713104,
+      "changePercent": 0.9814402037938463,
       "source": "yahoo/query1"
     },
     {
@@ -28,9 +28,9 @@
     {
       "symbol": "^RUT",
       "label": "RUSSELL",
-      "price": 3017.8708,
-      "change": 25.437200000000303,
-      "changePercent": 0.8500506076392239,
+      "price": 3017.871,
+      "change": 25.44100000000026,
+      "changePercent": 0.8501786173778588,
       "source": "yahoo/query1"
     },
     {
@@ -84,33 +84,33 @@
     {
       "symbol": "CL=F",
       "label": "CRUDE",
-      "price": 86.64,
-      "change": -0.18999999999999773,
-      "changePercent": -0.21881838074397988,
+      "price": 87.06,
+      "change": 0.23000000000000398,
+      "changePercent": 0.264885408269036,
       "source": "yahoo/query1"
     },
     {
       "symbol": "GC=F",
       "label": "GOLD",
-      "price": 4661.6,
-      "change": 90.20000000000073,
-      "changePercent": 1.9731373321083416,
+      "price": 4680.6,
+      "change": 109.20000000000073,
+      "changePercent": 2.388764929780827,
       "source": "yahoo/query1"
     },
     {
       "symbol": "DX-Y.NYB",
       "label": "DXY",
-      "price": 98.839,
-      "change": -0.055999999999997385,
-      "changePercent": -0.0566257141412583,
+      "price": 98.8,
+      "change": -0.10000000000000853,
+      "changePercent": -0.10111223458039284,
       "source": "yahoo/query1"
     },
     {
       "symbol": "BTC-USD",
       "label": "BTC",
-      "price": 78249.93,
-      "change": 5236.929999999993,
-      "changePercent": 7.1725994001068205,
+      "price": 76934.81,
+      "change": -1392.1600000000035,
+      "changePercent": -1.7773699148581943,
       "source": "yahoo/query1"
     }
   ]
