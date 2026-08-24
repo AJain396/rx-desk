@@ -1,14 +1,6 @@
 {
-  "updated": "2026-08-24T17:02:45.459Z",
+  "updated": "2026-08-24T17:54:34.338Z",
   "items": [
-    {
-      "title": "Logan Group Wins Court Approval for Holistic Debt Restructuring Schemes",
-      "snippet": "",
-      "category": "DISTRESSED",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWFhmT19JS3NQZDVxWm5pRUc4cGRFTEdQT3dVNzlSVWJDZ3pnRWtCVmJlZXE4U1NLRDlTRk40bW1scV9FaHpMZ0pFQXZQTGNiTng0WG9ISGU3RnFiSHJNVFM2dVV1ZmhxTzlxR2NnRC1ubkFJdzRZajdQMW50eW1PY3E2YWpkZk9SdnJBWEZwYWV1b2FOWk1mcFVwWmVtODVUQ3R2SkJZMTcyZnZWb2ZQdjg5azU1SUdVLVl3UzR0Smw?oc=5",
-      "source": "TipRanks",
-      "published": "2026-08-21T13:53:24.000Z"
-    },
     {
       "title": "Ethiopia Moves Closer to Eurobond Debt Restructuring After Official Creditors Approve Preliminary Deal",
       "snippet": "",
@@ -24,6 +16,14 @@
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZlJiWnNWVmx3M3UyM2tkQlRkNTVNTTlQajJpUU4xbV91cXI3UDJMNDFuN1IyaWtrVWpGVmxWQWZWTXJvczVXMEQxeVhUUTRBYThaWDhFN1lEbWtYY3d0ZUpDempoMHNkLVBka3Rza1dlSXJyZkY5ODhzVWgxZDBTenRFM05IT1A1b053YzQ5WERJczg0Wkw4SFFCTEFncGlWSTk2cDNwNjdIM19RejAwUVdKNzdMUl9iUTRkVG85b25QQW1KYmVOQUMyUEhhcGRnRUx6WWlPYjR5REpfVWs2a9IBYkFVX3lxTFB0Y1g0ODhyNlZYVFFRYzY2OXNtcnZScVZuU3VOT2hYZ3R6bTdnVXRKRU9ka0YtR0JxQldHTGJkejdvT1oza3JNbHBmZ1ljOTZHZWdIbFp4YTdCekxZbkM5TGhn?oc=5",
       "source": "Mealey's",
       "published": "2026-08-19T17:42:00.000Z"
+    },
+    {
+      "title": "US Bankruptcy: Braskem Idesa cleared to access $334mn in DIP financing, solicit creditors on plan to cut $920mn in debt",
+      "snippet": "",
+      "category": "DIP",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWVR1bVBtQ1lXN2JQX3NGbC1Xdk9lUHNQN0pmLXhSaTlWc291LVB3ZEEzSXQ2RjBNR3ZrYjFobWx1a21OVE9kbDRpbWJIcjRMMkFGLWV3N3lqS0ZuVUhrSGdwa2pSZ1pueE5DZGFuOE5EMlRhT3hib2FPamZiUUJLdUVsY01ZLWtJZUF6MXlxVW1MWTlnSlBvRVIzalR4YUpCYng5ZHZIM1psd0JQYnVFRHRFRWI4VU9mOUdmTUpWZmJzMnFwTnNXR3VBQnRpcDNTY0RKbjhpSllJSTlMTlpRajVfRUpjVE9iMDNn?oc=5",
+      "source": "CreditSights",
+      "published": "2026-08-24T17:16:50.000Z"
     },
     {
       "title": "PTC Wins Sangamo's Fabry Gene Therapy in Bankruptcy Auction",
@@ -58,12 +58,12 @@
       "published": "2026-08-17T08:08:45.000Z"
     },
     {
-      "title": "US Bankruptcy: Braskem Idesa cleared to access $334mn in DIP financing, solicit creditors on plan to cut $920mn in debt",
+      "title": "Restructure the debt, not Kenya’s future",
       "snippet": "",
-      "category": "DIP",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWVR1bVBtQ1lXN2JQX3NGbC1Xdk9lUHNQN0pmLXhSaTlWc291LVB3ZEEzSXQ2RjBNR3ZrYjFobWx1a21OVE9kbDRpbWJIcjRMMkFGLWV3N3lqS0ZuVUhrSGdwa2pSZ1pueE5DZGFuOE5EMlRhT3hib2FPamZiUUJLdUVsY01ZLWtJZUF6MXlxVW1MWTlnSlBvRVIzalR4YUpCYng5ZHZIM1psd0JQYnVFRHRFRWI4VU9mOUdmTUpWZmJzMnFwTnNXR3VBQnRpcDNTY0RKbjhpSllJSTlMTlpRajVfRUpjVE9iMDNn?oc=5",
-      "source": "CreditSights",
-      "published": "2026-08-21T13:30:32.000Z"
+      "category": "DISTRESSED",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUjN6NHZXRlJrTm9JU2pnVGJ1eXVwLVJBRVl1WXN4XzFKMmIweDBXc1VMREl5UW0zdDcyZ3IwcFJST2o1Y2J4OUdTZ2FuemZKXzhld3lhTWl4eFQ1VVhodDRVeGU2UXcySnBteERSSU1fQ2dmMVFlRzYxOFE1MHFwa181eXppV0xnTG5qM0tkdGZxZzV4R0VqV3JBUVpELS01dTlvamFibFZPVkRiRUUxR0dIbVY?oc=5",
+      "source": "Business Daily",
+      "published": "2026-08-24T15:15:00.000Z"
     },
     {
       "title": "Braskem Idesa, S.A.P.I takes strategic action through consensual restructuring to reduce its debt by more than US$920 MM",
@@ -74,14 +74,6 @@
       "published": "2026-08-18T05:16:00.000Z"
     },
     {
-      "title": "Restructure the debt, not Kenya’s future",
-      "snippet": "",
-      "category": "DISTRESSED",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUjN6NHZXRlJrTm9JU2pnVGJ1eXVwLVJBRVl1WXN4XzFKMmIweDBXc1VMREl5UW0zdDcyZ3IwcFJST2o1Y2J4OUdTZ2FuemZKXzhld3lhTWl4eFQ1VVhodDRVeGU2UXcySnBteERSSU1fQ2dmMVFlRzYxOFE1MHFwa181eXppV0xnTG5qM0tkdGZxZzV4R0VqV3JBUVpELS01dTlvamFibFZPVkRiRUUxR0dIbVY?oc=5",
-      "source": "Business Daily",
-      "published": "2026-08-24T15:15:00.000Z"
-    },
-    {
       "title": "Hunkemöller: English High Court Stays Proceedings in Cross-Border Uptier Dispute",
       "snippet": "<a…",
       "category": "LME",
@@ -90,12 +82,12 @@
       "published": "2026-08-21T01:08:52.000Z"
     },
     {
-      "title": "Braskem’s Mexico Unit Files for Prepackaged Bankruptcy in US",
+      "title": "BFG Supply Officially Files for Chapter 11 Bankruptcy Protection",
       "snippet": "",
       "category": "CHAPTER 11",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXBONlJObkpsRXVtUzd5OGJwYXVIdWtTalYtWmdyelItTktJcnNXZWRLR091X0NYMExRUGZlWWZoa2tZd1ZjQndYdFV3LVBiUU1rTGUwNDNWdDlUdkNPcTkwaHdRendQazdqM3hkVjVjSnhrY1FRWkNyVVlFZkw2RnctcmtYZ09CWklKeGtJSEZ5V21TejEySm9HY3FxTmlnUnA3cWUxSDhzbDBCbWZr?oc=5",
-      "source": "Bloomberg",
-      "published": "2026-08-18T13:44:30.000Z"
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmFtRUxxZkRsd3VPazQ1SXZUcDZSTzdRbGNVTnVqRmFuUWpOYlJBZkVUN0pFZndSLS1GMUZ1U3pFU2xVR1FxcjU4ZzZqMEdDVnROWXRvaWdRZ1pCNzU2dVR5Q3IzaU5hZkpiMUxyY2RIQXB3aDM2UHd5emZJUWRMVFdXRlA1c1dvSlVhSWlnS25GRVlHOEJGUG1fRVM0LURTY0lLanBBbHpqVDJSMWfSAbMBQVVfeXFMTmoyTEdBSUpHcHpqQjEzZlNnejFtNUxrN016OTEzQXRKN1ZFQ2g1aGlKM2M3aWxNZFR4OXB0dDhjNmUxNGZWU0NFUEFvTmVQLUxvQy1KMEs1NGFDbk9kdnJ5aFptTmlDMGtfWUZ4UEV4S1RZeU81aTAweDllSmx4eUEzMG1Fb2ZxeWtFQVNtLVBxY0ZuVXlraUM0cjhXcDAtRnh6MnBPQW43TFJXU182UjhOQzA?oc=5",
+      "source": "Greenhouse Grower",
+      "published": "2026-08-20T13:04:23.000Z"
     },
     {
       "title": "Braskem Idesa Cuts Debt by $920 Million in Creditor Deal; Eyes Chapter 11 Exit Within 60–90 Days",
@@ -104,6 +96,14 @@
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xMG80Y3NUUnZiZ21aVkN6Sm9yYkpoX1c2TmRXSm5hYlhDZnBCaWtZWDBXWDFXc3JrSE1fazgxNWFxdjNjYlBXdC1JMDFvelZyQWtnX2cweHBlRTEwVXpYTmlXeEVhZnRkWEstaGlJREM4TXBfSEE?oc=5",
       "source": "finance.biggo.com",
       "published": "2026-08-18T06:05:00.000Z"
+    },
+    {
+      "title": "Branicks Secures Creditor Lifeline, But S&P's Default Call Exposes the Gap Between Ballot and Balanc",
+      "snippet": "",
+      "category": "DISTRESSED",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTWNXNU9SYVc0R3hOM0hhaDA1R0lKMWhxUVN2UVVlbGpoU28yNkxlYmVGTEx0Y1Nta0xVMnU3enViSkJoaUxhNFV1bkJqcWtldVFMRTlscEhVdjhJSmdHdm95bjVVcTFOVEFJZEswSE80ekdnWnBGMWhDTjhmMlhwV0pFT2FucnBpM1NjaXZnd3BnNkEySjJ6N1FISGVabWJmSlJyZWhjNWl6N3NLUDhKdkVfSVdISE1QUUZQeEp1czdCRm5pTE1JZlBWa2xBQldVa011WHFCR2dfWHVaYkE?oc=5",
+      "source": "Ad-hoc-news.de",
+      "published": "2026-08-19T00:54:49.000Z"
     },
     {
       "title": "Salad and Go bankruptcy drama’s coffee-fueled plot twist",
@@ -122,12 +122,12 @@
       "published": "2026-08-17T15:00:00.000Z"
     },
     {
-      "title": "BFG Supply Officially Files for Chapter 11 Bankruptcy Protection",
+      "title": "Braskem’s Mexico Unit Files for Prepackaged Bankruptcy in US",
       "snippet": "",
       "category": "CHAPTER 11",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmFtRUxxZkRsd3VPazQ1SXZUcDZSTzdRbGNVTnVqRmFuUWpOYlJBZkVUN0pFZndSLS1GMUZ1U3pFU2xVR1FxcjU4ZzZqMEdDVnROWXRvaWdRZ1pCNzU2dVR5Q3IzaU5hZkpiMUxyY2RIQXB3aDM2UHd5emZJUWRMVFdXRlA1c1dvSlVhSWlnS25GRVlHOEJGUG1fRVM0LURTY0lLanBBbHpqVDJSMWfSAbMBQVVfeXFMTmoyTEdBSUpHcHpqQjEzZlNnejFtNUxrN016OTEzQXRKN1ZFQ2g1aGlKM2M3aWxNZFR4OXB0dDhjNmUxNGZWU0NFUEFvTmVQLUxvQy1KMEs1NGFDbk9kdnJ5aFptTmlDMGtfWUZ4UEV4S1RZeU81aTAweDllSmx4eUEzMG1Fb2ZxeWtFQVNtLVBxY0ZuVXlraUM0cjhXcDAtRnh6MnBPQW43TFJXU182UjhOQzA?oc=5",
-      "source": "Greenhouse Grower",
-      "published": "2026-08-20T13:04:23.000Z"
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXBONlJObkpsRXVtUzd5OGJwYXVIdWtTalYtWmdyelItTktJcnNXZWRLR091X0NYMExRUGZlWWZoa2tZd1ZjQndYdFV3LVBiUU1rTGUwNDNWdDlUdkNPcTkwaHdRendQazdqM3hkVjVjSnhrY1FRWkNyVVlFZkw2RnctcmtYZ09CWklKeGtJSEZ5V21TejEySm9HY3FxTmlnUnA3cWUxSDhzbDBCbWZr?oc=5",
+      "source": "Bloomberg",
+      "published": "2026-08-18T13:44:30.000Z"
     },
     {
       "title": "Rebel Creamery files for Chapter 11 bankruptcy after lawsuit",
