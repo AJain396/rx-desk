@@ -1,14 +1,6 @@
 {
-  "updated": "2026-08-25T18:22:29.588Z",
+  "updated": "2026-08-25T19:06:40.636Z",
   "items": [
-    {
-      "title": "Logan Group Wins Court Approval for Holistic Debt Restructuring Schemes",
-      "snippet": "",
-      "category": "DISTRESSED",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWFhmT19JS3NQZDVxWm5pRUc4cGRFTEdQT3dVNzlSVWJDZ3pnRWtCVmJlZXE4U1NLRDlTRk40bW1scV9FaHpMZ0pFQXZQTGNiTng0WG9ISGU3RnFiSHJNVFM2dVV1ZmhxTzlxR2NnRC1ubkFJdzRZajdQMW50eW1PY3E2YWpkZk9SdnJBWEZwYWV1b2FOWk1mcFVwWmVtODVUQ3R2SkJZMTcyZnZWb2ZQdjg5azU1SUdVLVl3UzR0Smw?oc=5",
-      "source": "TipRanks",
-      "published": "2026-08-21T13:53:24.000Z"
-    },
     {
       "title": "Popular men’s fashion chain files for Chapter 11 bankruptcy",
       "snippet": "",
@@ -32,6 +24,14 @@
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZlJiWnNWVmx3M3UyM2tkQlRkNTVNTTlQajJpUU4xbV91cXI3UDJMNDFuN1IyaWtrVWpGVmxWQWZWTXJvczVXMEQxeVhUUTRBYThaWDhFN1lEbWtYY3d0ZUpDempoMHNkLVBka3Rza1dlSXJyZkY5ODhzVWgxZDBTenRFM05IT1A1b053YzQ5WERJczg0Wkw4SFFCTEFncGlWSTk2cDNwNjdIM19RejAwUVdKNzdMUl9iUTRkVG85b25QQW1KYmVOQUMyUEhhcGRnRUx6WWlPYjR5REpfVWs2a9IBYkFVX3lxTFB0Y1g0ODhyNlZYVFFRYzY2OXNtcnZScVZuU3VOT2hYZ3R6bTdnVXRKRU9ka0YtR0JxQldHTGJkejdvT1oza3JNbHBmZ1ljOTZHZWdIbFp4YTdCekxZbkM5TGhn?oc=5",
       "source": "Mealey's",
       "published": "2026-08-19T17:42:00.000Z"
+    },
+    {
+      "title": "Nasdaq-listed crypto treasury avoids cash drain by pushing millions in defaulted SPAC debt onto future equity",
+      "snippet": "",
+      "category": "DISTRESSED",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRWVGeHZFX1pSdWlnVUNhTGdyekdQNlNrVFF0QjU2MFlCNkVJXzJ2MFBJVUpVaVhuOGVzazl6TndqZUhrXzNEZXhaMFpNY29KczVSTmt1VjFZcnlWS2RxTG9fakthU3lUVjVWZWhBY255UXhhVG9Hd3dha2VLR1BWamZ6ODU2cVhWanRWdUF0WUZPejJqV1k2YjdaS1l4S0phdHpYVlJtc29zOWNCdGhUQVJxOVhUWTJGUFpiZE5TeEJwTlRhazNwei1vZUNvMFU?oc=5",
+      "source": "CryptoSlate",
+      "published": "2026-08-25T18:35:47.000Z"
     },
     {
       "title": "Poolin Bankruptcy: Bitcoin Mining Assets Head to Auction with $52M Opening Bid",
@@ -138,12 +138,12 @@
       "published": "2026-08-20T13:04:23.000Z"
     },
     {
-      "title": "Braskem’s Mexico Unit Files for Prepackaged Bankruptcy in US",
+      "title": "Rebel Creamery files for Chapter 11 bankruptcy after lawsuit",
       "snippet": "",
       "category": "CHAPTER 11",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXBONlJObkpsRXVtUzd5OGJwYXVIdWtTalYtWmdyelItTktJcnNXZWRLR091X0NYMExRUGZlWWZoa2tZd1ZjQndYdFV3LVBiUU1rTGUwNDNWdDlUdkNPcTkwaHdRendQazdqM3hkVjVjSnhrY1FRWkNyVVlFZkw2RnctcmtYZ09CWklKeGtJSEZ5V21TejEySm9HY3FxTmlnUnA3cWUxSDhzbDBCbWZr?oc=5",
-      "source": "Bloomberg",
-      "published": "2026-08-18T13:44:30.000Z"
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQVRyTXNjVGZmWHlFZjBiRmFPVUVUMXhXSy1ZQ0cySy05T2J4TVdkWG9UNW9kM1VicG5GRHI1UXhBLV8xOUlGSTk3Ny1OWkZaSmFrLUEtVERiNlF4cHNBLXBOaGdySmpCUXNfdDRhMkp3ajFVUC15SkIzWEN3bkpXTjVlQ1hLX0pHNkJjcTI3U0duTmVHR1RBZ2gxbktoX2pwZDR4Qm1iMmRwZHE2eUV4bUp2NzI3SzV2SVhJ0gHPAUFVX3lxTE1HazlvemZpLWY2dlU3a0g0NUxqRHFhX3FkOWxxVWRvRno3TGYxZ3A2UFBrMU1BUkFleDYtNHkwS21RcDFrVi15ZFRwOE92TWoyUE85QnJfUlJ1NzJsM1Z5aVk0cFZhLVkzSjhDRGk3NVBZTW1NZEQzckxfQlE4X1BPRDl5cU9vNEpKZWs5Z251VmhVVXdGMG4yWVI4eTJSTUo0XzNJbVBXaUZ5OVJyNHk3RXpWLVRLV0UxZVBsMkU4OU1pdXJycFAtZEdFbVhnWQ?oc=5",
+      "source": "WPXI",
+      "published": "2026-08-17T16:23:41.000Z"
     }
   ]
 }
