@@ -5,33 +5,33 @@ tags: [liability management, distressed, defaults]
 excerpt: "The balance sheet gets fixed in six weeks and the business gets fixed never. That trade is why the same names keep coming back."
 ---
 
-There used to be a sequence. A company ran out of room, someone did the work of figuring out why, and the capital structure got rebuilt around whatever the business could actually support, the financial fix downstream of the operating diagnosis, not a substitute for it.
+There used to be an order to this. A company ran out of runway, someone actually figured out why, and only then did the capital structure get rebuilt around what the business could support. The financial fix came after the diagnosis. It didn't replace it.
 
-That sequence is mostly gone. The financial fix happens first now. Fast. Often instead.
+That order is basically gone now.
 
-## The numbers say the exchange is the default
+## The exchange is the default, statistically speaking
 
-Moody's put roughly 65% of private credit defaults in 2025 in the distressed restructuring bucket, not chapter 11, exchanges. The measured default rate for private credit last year sits anywhere between 1.6% and 4.7%, depending entirely on whether you count those exchanges as defaults at all. That range is the whole story in one statistic: the dominant resolution mechanism in credit is now a transaction reasonable people disagree about whether to even call a default.
+Moody's puts roughly 65% of 2025's private credit defaults in the distressed-restructuring bucket, not chapter 11, exchanges. And here's the strange part: the measured default rate for private credit last year swings anywhere from 1.6% to 4.7% depending entirely on whether you count those exchanges as defaults at all. Sit with that range for a second. The single most common way credit resolves itself right now is a transaction that reasonable, informed people can't agree whether to call a default.
 
-## What an LME actually buys
+## What you're actually buying with an LME
 
-Maturity runway. A lower cash coupon. That's it. Both real, both valuable; neither, however, is an answer to why the business stopped generating cash in the first place.
+Time. A lower coupon. That's the whole product. Both of those are real and both are worth something, neither one, however, answers the question of why the business stopped generating cash to begin with.
 
-An operational restructuring is slow and unpleasant: you close locations, exit product lines, fight with management about a cost base they built and still believe in. It takes quarters, and it makes enemies. An uptier takes six weeks, needs a majority rather than consensus, and pays fees to the people who execute it. Given those two options, and a sponsor whose equity is already out of the money, the choice makes itself. Nobody in the room is incentivized to run the slow one.
+Operational restructuring is slow, and it's ugly. You're closing locations. You're cutting product lines. You're in a room fighting with management about a cost structure they built and, often, still believe in. It takes quarters, and it burns relationships. An uptier takes six weeks, needs a majority instead of consensus, and pays the people who execute it. Put those two paths in front of a sponsor whose equity is already underwater, and there's no real choice being made. Nobody in that room benefits from picking the slow option.
 
-## The bill arrives as recidivism
+## The bill shows up later, as recidivism
 
-Moody's counted repeat offenders as roughly 40% of US corporate defaults in 2023. That number is the price of treating a leverage problem as a maturity problem. The mechanism isn't complicated: a company can't service debt because the business is impaired; an LME cuts cash interest and pushes maturities out two or three years; nothing changes operationally, because nothing in the deal required it to. Two or three years later, less liquidity, worse docs, fewer unencumbered assets, and a lender group that's already been through one fight.
+Moody's counted repeat defaulters as roughly 40% of all US corporate defaults in 2023. That's what it costs to treat a leverage problem like it's a maturity problem. Walk through the mechanism: the business is impaired, so it can't service debt; the LME cuts cash interest and pushes maturities two or three years out; nothing about how the company actually operates changes, because the deal never required it to. Then, two or three years later: less liquidity, worse documents, fewer assets left unencumbered, and a lender group that's already fought this fight once before.
 
-Round two is always worse than round one. The easy collateral is pledged. The unrestricted-subsidiary capacity is used. The cooperative lenders have already been sorted from the excluded ones.
+The second fight is always worse than the first. The easy collateral's gone. The unrestricted-subsidiary room has been used up. The cooperative lenders and the excluded ones have already been sorted, and everyone remembers who was which.
 
-## What I'd actually watch
+## What actually tells you something
 
-Not the LME announcement. The twelve months after it.
+Not the announcement. What happens in the twelve months after it.
 
-If the exchange comes with a genuine operating plan, new management, a closed footprint, a cost program with dates attached, treat it as a bridge. If it comes with a press release about "enhanced financial flexibility" and no change to how the company is actually run, price it as a delay and start diligencing the next capital structure now.
+A genuine operating plan attached to the exchange, new management, a smaller footprint, cost cuts with real dates on them, means treat it as a bridge to something real. A press release about "enhanced financial flexibility" with no actual change to how the company runs means something else: price it as a delay, and start underwriting the next restructuring now, because there will be one.
 
-The second one is more common. The balance sheet gets fixed in six weeks. The business gets fixed never. And the market keeps paying full price for it anyway.
+Six weeks to fix a balance sheet. Never, apparently, to fix a business. And the market keeps paying full price like that trade makes sense.
 
 ---
 
