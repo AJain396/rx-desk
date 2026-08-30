@@ -5,31 +5,29 @@ tags: [uptier, litigation, credit docs, serta]
 excerpt: "Judge Lopez put a price on an improper uptier. The damages math is more instructive than the liability finding, and it lands almost entirely on prejudgment interest."
 ---
 
-A number, finally. On July 7, 2026, Judge Christopher Lopez in the Southern District of Texas entered judgment against the participating lenders in Serta: roughly $400 million, of which $261.13 million is the judgment itself and the rest — nearly a third of the total — is New York statutory prejudgment interest, running at 9% since June 22, 2020.
+Six years of interest decided this case more than the underlying breach did, and that's the part worth sitting with.
 
-Sit with that split. A third of the exposure isn't the deal. It's the clock.
+On July 7, 2026, Judge Christopher Lopez in the Southern District of Texas entered judgment against the participating lenders in Serta. Call it $400 million, roughly. Break it down and $261.13 million is the actual judgment; the rest, nearly a third of the total, is New York statutory prejudgment interest, running at 9% since June 22, 2020.
 
-## The liability half is now settled law in the Fifth Circuit
+A third of the number is just the clock ticking.
 
-The 2020 exchange was not an "open market purchase," however the participating lenders wanted to characterize it. The court treated it as a payment in respect of principal, which triggered the pro rata sharing provision, which those lenders did not satisfy. This is the reading the excluded lenders have been pressing since 2020, and it has now survived, in full, through to a damages award. The argument that an open-market-purchase exception can cover a negotiated, non-ratable exchange among a hand-picked majority is finished, at least in this circuit.
+## The liability question is now closed, at least here
 
-## The damages half is where the actual lesson sits
+The 2020 exchange wasn't an "open market purchase," whatever the participating lenders wanted to call it. The court treated it as a payment on principal, which triggered pro rata sharing, which those lenders didn't honor. Excluded lenders have been making this argument since 2020. It just took six years and a damages award to make it stick. The idea that an open-market-purchase exception could cover a negotiated exchange among a hand-picked majority, that argument is dead now, at least in the Fifth Circuit.
 
-The court rejected the models built off Serta's 2023 chapter 11 emergence and instead valued the breach as of the breach date, marking the first lien loans at 25 cents. That choice does two things at once. It caps the claim at what the position was worth in June 2020, rather than letting excluded lenders capture the full downstream consequences of the transaction, a real limit, and a meaningful one for anyone modeling recovery. But it also front-loads the clock: a 2020 breach date means six years of 9% statutory interest accrue before anyone gets paid, and that second effect swamps the first.
+## The damages math is the actual lesson here
 
-New York prejudgment interest is not discretionary, it is not compounded at some negotiated market rate, and it accrues whether the litigation moves quickly or not. Six years of it turns a $261 million judgment into a $400 million one.
+Here's where it gets interesting. The court threw out the models built off Serta's 2023 emergence from chapter 11 and instead valued the breach as of the breach date itself, marking the first lien loans at 25 cents. Two things follow from that, and they pull in opposite directions. First, it caps the claim at what the position was actually worth back in June 2020, a real ceiling, and a useful one if you're trying to model recovery on similar litigation. Second, and this is the part that swamps everything else, it starts the interest clock in 2020. Six years of mandatory 9% simple interest, uncompounded, accruing regardless of how slowly the case moved. That's how $261 million becomes $400 million.
 
-## Two structural details worth carrying forward
+## Two things worth carrying into the next one
 
-There's no joint liability here. Each defendant answers only for its proportional share of first lien holdings as of June 22, 2020 — a participating lender's exposure is a function of its own ticket, not the group's. That changes the settlement dynamics entirely: no single deep pocket to chase, no contribution fight among defendants.
+No joint liability. Each defendant is on the hook only for its own proportional share of first lien holdings as of the breach date, which means there's no single deep pocket for excluded lenders to chase, and no contribution fight among the defendants themselves. And breach-date valuation cuts against the plaintiffs too, not just the defendants: excluded lenders who modeled damages against a reorganized, post-emergence enterprise got a smaller number than they expected. If you're underwriting uptier litigation as a recovery play, run your marks off the breach date. Not the emergence date.
 
-And breach-date valuation cuts both ways. Excluded lenders who assumed damages would be measured against a reorganized enterprise got substantially less than they modeled. If you're underwriting uptier litigation as a recovery strategy, run breach-date marks. Not emergence-date ones.
+## Where this goes next
 
-## Where it goes
+Fifth Circuit, probably, again. But deals are already being drafted differently because of this. The open-market-purchase exception used to be boilerplate. Now it's a fought-over provision, because for the first time getting it wrong comes with an actual invoice attached.
 
-Expect the Fifth Circuit again. But the practical effect is already priced into how deals get done: the open-market-purchase exception is now a drafted, fought-over provision instead of boilerplate, and getting it wrong finally has a public number attached.
-
-That number is the useful part. Not the precedent. The invoice.
+That's the part that matters. Not the precedent. The number.
 
 ---
 
