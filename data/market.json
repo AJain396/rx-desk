@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T04:48:51.341Z",
+  "updated": "2026-08-30T05:13:41.158Z",
   "quotes": [
     {
       "symbol": "^GSPC",
@@ -108,9 +108,9 @@
     {
       "symbol": "BTC-USD",
       "label": "BTC",
-      "price": 78012.91,
-      "change": -221.8399999999965,
-      "changePercent": -0.28355685932401714,
+      "price": 78153.41,
+      "change": -81.33999999999651,
+      "changePercent": -0.1039691441462988,
       "source": "yahoo/query1"
     }
   ]
