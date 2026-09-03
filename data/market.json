@@ -1,44 +1,44 @@
 {
-  "updated": "2026-09-03T19:29:27.743Z",
+  "updated": "2026-09-03T21:49:21.739Z",
   "quotes": [
     {
       "symbol": "^GSPC",
       "label": "S&P 500",
-      "price": 7750.44,
-      "change": 83.83999999999924,
-      "changePercent": 1.0935747267367442,
+      "price": 7747.71,
+      "change": 81.10999999999967,
+      "changePercent": 1.0579657214410516,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^DJI",
       "label": "DOW",
-      "price": 53668.43,
-      "change": 606.4800000000032,
-      "changePercent": 1.1429659106007284,
+      "price": 53686.11,
+      "change": 624.1600000000035,
+      "changePercent": 1.1762854550200352,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^IXIC",
       "label": "NASDAQ",
-      "price": 26609.285,
-      "change": 391.4569999999985,
-      "changePercent": 1.4930946987675657,
+      "price": 26584.06,
+      "change": 366.23199999999997,
+      "changePercent": 1.3968815418271872,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^RUT",
       "label": "RUSSELL",
-      "price": 2964.8792,
-      "change": 11.71289999999999,
-      "changePercent": 0.3966217547586125,
+      "price": 2968.271,
+      "change": 15.10470000000032,
+      "changePercent": 0.5114747516927957,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^VIX",
       "label": "VIX",
-      "price": 14.43,
-      "change": -0.7699999999999996,
-      "changePercent": -5.065789473684208,
+      "price": 14.32,
+      "change": -0.879999999999999,
+      "changePercent": -5.78947368421052,
       "source": "yahoo/query1"
     },
     {
@@ -52,65 +52,65 @@
     {
       "symbol": "HYG",
       "label": "HYG",
-      "price": 79.224,
-      "change": 0.11400000000000432,
-      "changePercent": 0.14410314751612227,
+      "price": 79.21,
+      "change": 0.09999999999999432,
+      "changePercent": 0.12640626975097247,
       "source": "yahoo/query1"
     },
     {
       "symbol": "JNK",
       "label": "JNK",
-      "price": 95.345,
-      "change": 0.13500000000000512,
-      "changePercent": 0.14179182858943926,
+      "price": 95.3,
+      "change": 0.09000000000000341,
+      "changePercent": 0.09452788572629284,
       "source": "yahoo/query1"
     },
     {
       "symbol": "BKLN",
       "label": "BKLN",
-      "price": 20.575,
-      "change": 0.015000000000000568,
-      "changePercent": 0.07295719844358253,
+      "price": 20.59,
+      "change": 0.030000000000001137,
+      "changePercent": 0.14591439688716507,
       "source": "yahoo/query1"
     },
     {
       "symbol": "LQD",
       "label": "LQD",
-      "price": 105.525,
-      "change": 0.17500000000001137,
-      "changePercent": 0.16611295681064203,
+      "price": 105.5,
+      "change": 0.15000000000000568,
+      "changePercent": 0.14238253440911788,
       "source": "yahoo/query1"
     },
     {
       "symbol": "CL=F",
       "label": "CRUDE",
-      "price": 91.57,
-      "change": 0.5599999999999881,
-      "changePercent": 0.6153169981320603,
+      "price": 91.67,
+      "change": 0.6599999999999966,
+      "changePercent": 0.725195033512797,
       "source": "yahoo/query1"
     },
     {
       "symbol": "GC=F",
       "label": "GOLD",
-      "price": 4523.6,
-      "change": 109,
-      "changePercent": 2.469079871336021,
+      "price": 4520.3,
+      "change": -19.599999999999454,
+      "changePercent": -0.4317275710918623,
       "source": "yahoo/query1"
     },
     {
       "symbol": "DX-Y.NYB",
       "label": "DXY",
-      "price": 98.966,
-      "change": -0.6300000000000097,
-      "changePercent": -0.6325555243182555,
+      "price": 99.007,
+      "change": -0.5889999999999986,
+      "changePercent": -0.591389212418168,
       "source": "yahoo/query1"
     },
     {
       "symbol": "BTC-USD",
       "label": "BTC",
-      "price": 81560.03,
-      "change": 4249.860000000001,
-      "changePercent": 5.49715516082813,
+      "price": 81567.6,
+      "change": 4257.430000000008,
+      "changePercent": 5.506946886806753,
       "source": "yahoo/query1"
     }
   ]
