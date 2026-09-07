@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T17:59:37.089Z",
+  "updated": "2026-09-07T21:11:54.227Z",
   "quotes": [
     {
       "symbol": "^GSPC",
@@ -100,17 +100,17 @@
     {
       "symbol": "DX-Y.NYB",
       "label": "DXY",
-      "price": 98.909,
-      "change": -0.2669999999999959,
-      "changePercent": -0.26921835928046695,
+      "price": 99.176,
+      "change": 0,
+      "changePercent": 0,
       "source": "yahoo/query1"
     },
     {
       "symbol": "BTC-USD",
       "label": "BTC",
-      "price": 79166.77,
-      "change": -1184.62999999999,
-      "changePercent": -1.474311586356915,
+      "price": 79200.33,
+      "change": -1151.0699999999924,
+      "changePercent": -1.4325450458859368,
       "source": "yahoo/query1"
     }
   ]
