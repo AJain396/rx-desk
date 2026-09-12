@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T21:48:14.768Z",
+  "updated": "2026-09-12T17:39:55.198Z",
   "quotes": [
     {
       "symbol": "^GSPC",
@@ -37,8 +37,8 @@
       "symbol": "^VIX",
       "label": "VIX",
       "price": 15.84,
-      "change": -0.620000000000001,
-      "changePercent": -3.766707168894295,
+      "change": -2,
+      "changePercent": -11.210762331838566,
       "source": "yahoo/query1"
     },
     {
@@ -84,33 +84,33 @@
     {
       "symbol": "CL=F",
       "label": "CRUDE",
-      "price": 99.99,
-      "change": -2.490000000000009,
-      "changePercent": -2.429742388758791,
+      "price": 100.05,
+      "change": -2.430000000000007,
+      "changePercent": -2.371194379391107,
       "source": "yahoo/query1"
     },
     {
       "symbol": "GC=F",
       "label": "GOLD",
-      "price": 4390,
-      "change": -17.300000000000182,
-      "changePercent": -0.3925305742745033,
+      "price": 4408.9,
+      "change": 1.5999999999994543,
+      "changePercent": 0.03630340571323609,
       "source": "yahoo/query1"
     },
     {
       "symbol": "DX-Y.NYB",
       "label": "DXY",
       "price": 99.095,
-      "change": 0.046999999999997044,
-      "changePercent": 0.04745174057022559,
+      "change": -0.027000000000001023,
+      "changePercent": -0.027239159823249152,
       "source": "yahoo/query1"
     },
     {
       "symbol": "BTC-USD",
       "label": "BTC",
-      "price": 77289.89,
-      "change": 753.9400000000023,
-      "changePercent": 0.9850795606509128,
+      "price": 77212.42,
+      "change": 10.539999999993597,
+      "changePercent": 0.01365251727029652,
       "source": "yahoo/query1"
     }
   ]
