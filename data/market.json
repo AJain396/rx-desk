@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T17:39:55.198Z",
+  "updated": "2026-09-13T17:53:11.531Z",
   "quotes": [
     {
       "symbol": "^GSPC",
@@ -21,16 +21,16 @@
       "symbol": "^IXIC",
       "label": "NASDAQ",
       "price": 26333.035,
-      "change": 251.3100000000013,
-      "changePercent": 0.9635482315682774,
+      "change": 251.33499999999913,
+      "changePercent": 0.963645007802402,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^RUT",
       "label": "RUSSELL",
       "price": 2903.944,
-      "change": 12.996999999999844,
-      "changePercent": 0.4495758656246497,
+      "change": 12.994000000000142,
+      "changePercent": 0.4494716269738371,
       "source": "yahoo/query1"
     },
     {
@@ -108,9 +108,9 @@
     {
       "symbol": "BTC-USD",
       "label": "BTC",
-      "price": 77212.42,
-      "change": 10.539999999993597,
-      "changePercent": 0.01365251727029652,
+      "price": 77338.18,
+      "change": 67.95999999999185,
+      "changePercent": 0.08795108904826705,
       "source": "yahoo/query1"
     }
   ]
