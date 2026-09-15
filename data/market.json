@@ -1,116 +1,116 @@
 {
-  "updated": "2026-09-15T17:23:27.360Z",
+  "updated": "2026-09-15T20:19:13.497Z",
   "quotes": [
     {
       "symbol": "^GSPC",
       "label": "S&P 500",
-      "price": 7578.66,
-      "change": -41.31999999999971,
-      "changePercent": -0.5422586410987917,
+      "price": 7585.73,
+      "change": -34.25,
+      "changePercent": -0.44947624534447606,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^DJI",
       "label": "DOW",
-      "price": 51960.24,
-      "change": -460.9599999999991,
-      "changePercent": -0.879338893424796,
+      "price": 52093.11,
+      "change": -328.0899999999965,
+      "changePercent": -0.6258727385103671,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^IXIC",
       "label": "NASDAQ",
-      "price": 25971.42,
-      "change": -214.99400000000242,
-      "changePercent": -0.821013522508284,
+      "price": 25981.57,
+      "change": -204.84400000000096,
+      "changePercent": -0.7822529652208239,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^RUT",
       "label": "RUSSELL",
-      "price": 2871.7188,
-      "change": -20.51780000000008,
-      "changePercent": -0.7094094584101479,
+      "price": 2870.2854,
+      "change": -21.95119999999997,
+      "changePercent": -0.7589697191439999,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^VIX",
       "label": "VIX",
-      "price": 17.56,
-      "change": 0.4599999999999973,
-      "changePercent": 2.690058479532148,
+      "price": 17.31,
+      "change": 0.2099999999999973,
+      "changePercent": 1.2280701754385805,
       "source": "yahoo/query1"
     },
     {
       "symbol": "^TNX",
       "label": "US 10Y",
-      "price": 5.008,
-      "change": 0.04699999999999971,
-      "changePercent": 0.9473896391856421,
+      "price": 4.996,
+      "change": 0.03500000000000014,
+      "changePercent": 0.7055029227978259,
       "source": "yahoo/query1"
     },
     {
       "symbol": "HYG",
       "label": "HYG",
-      "price": 78.435,
-      "change": -0.09499999999999886,
-      "changePercent": -0.12097287660766441,
+      "price": 78.38,
+      "change": -0.15000000000000568,
+      "changePercent": -0.19100980517000596,
       "source": "yahoo/query1"
     },
     {
       "symbol": "JNK",
       "label": "JNK",
-      "price": 94.365,
-      "change": -0.125,
-      "changePercent": -0.13228913112498678,
+      "price": 94.3,
+      "change": -0.18999999999999773,
+      "changePercent": -0.2010794793099775,
       "source": "yahoo/query1"
     },
     {
       "symbol": "BKLN",
       "label": "BKLN",
-      "price": 20.625,
-      "change": 0.015000000000000568,
-      "changePercent": 0.07278020378457335,
+      "price": 20.65,
+      "change": 0.03999999999999915,
+      "changePercent": 0.19408054342551748,
       "source": "yahoo/query1"
     },
     {
       "symbol": "LQD",
       "label": "LQD",
-      "price": 104.175,
-      "change": -0.125,
-      "changePercent": -0.11984659635666348,
+      "price": 104.28,
+      "change": -0.01999999999999602,
+      "changePercent": -0.01917545541706234,
       "source": "yahoo/query1"
     },
     {
       "symbol": "CL=F",
       "label": "CRUDE",
-      "price": 106.45,
-      "change": 5.060000000000002,
-      "changePercent": 4.990630239668609,
+      "price": 106.06,
+      "change": 4.670000000000002,
+      "changePercent": 4.605976920800869,
       "source": "yahoo/query1"
     },
     {
       "symbol": "GC=F",
       "label": "GOLD",
-      "price": 4337.3,
-      "change": -14.599999999999454,
-      "changePercent": -0.33548564994598806,
+      "price": 4337.2,
+      "change": -14.699999999999818,
+      "changePercent": -0.33778349686343484,
       "source": "yahoo/query1"
     },
     {
       "symbol": "DX-Y.NYB",
       "label": "DXY",
-      "price": 99.633,
-      "change": 0.24199999999999022,
-      "changePercent": 0.2434828103148074,
+      "price": 99.645,
+      "change": 0.2539999999999907,
+      "changePercent": 0.2555563380990136,
       "source": "yahoo/query1"
     },
     {
       "symbol": "BTC-USD",
       "label": "BTC",
-      "price": 76257.16,
-      "change": -1924.1699999999983,
-      "changePercent": -2.4611630423785296,
+      "price": 75888.01,
+      "change": -2293.320000000007,
+      "changePercent": -2.9333345953567265,
       "source": "yahoo/query1"
     }
   ]
