@@ -172,6 +172,9 @@
   article.post .body p{margin:0 0 17px}
   article.post .body ul,article.post .body ol{margin:0 0 17px;padding-left:24px}
   article.post .body li{margin:0 0 7px}
+  article.post .body ul{list-style:none}
+  article.post .body ul>li{position:relative}
+  article.post .body ul>li::before{content:"-";position:absolute;left:-18px}
   article.post .body a{color:#6d5636}
   article.post .body blockquote{
     margin:0 0 17px;padding:4px 0 4px 18px;border-left:3px solid var(--rule);
