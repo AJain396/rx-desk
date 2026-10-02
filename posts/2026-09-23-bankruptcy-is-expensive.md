@@ -1,7 +1,7 @@
 ---
 title: Bankruptcy Is Expensive. So Everyone's Doing Something Else.
 date: 2026-09-23
-tags: [LME vs. Operational, Liability Management Exercise, Trends, 2026]
+tags: [Trends, 2026]
 excerpt: Chapter 11 is supposed to be the last resort. Lately, it seems like nobody wants to press that button.
 ---
 
