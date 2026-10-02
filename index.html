@@ -157,6 +157,21 @@
   .deal-tile .name{font-size:21px;font-weight:700;line-height:1.25}
   .deal-tile .count{font-size:13.5px;letter-spacing:.06em;text-transform:uppercase;color:#9a8f7d}
 
+  /* ---------- tag bank (deals page) ---------- */
+  .tag-bank{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0 0}
+  .tag-bank .chip{
+    font-family:var(--serif);border:1px solid transparent;cursor:pointer;
+    font-size:13.5px;padding:6px 14px;
+    transition:background .14s ease, color .14s ease, border-color .14s ease;
+  }
+  .tag-bank .chip:hover{border-color:var(--accent)}
+  .tag-bank .chip .n{opacity:.6;margin-left:6px}
+  .tag-bank .chip.on{background:var(--accent);color:#fffdf8;border-color:var(--accent)}
+  .tag-bank .chip:focus-visible{outline:2px solid #fffdf8;outline-offset:2px}
+  @media(max-width:480px){.tag-bank .chip{font-size:12.5px;padding:5px 12px}}
+  .filter-note{margin:24px 0 0;color:#f2f6f9;font-size:15.5px}
+  .filter-note b{font-weight:700}
+
   /* ---------- post view ---------- */
   article.post{
     background:var(--tile);border-radius:var(--r-panel);box-shadow:var(--shadow);
@@ -323,57 +338,57 @@ function viewHome(){
     + tiles;
 }
 
-function dealIndex(){
+function tagIndex(){
   var map = {};
   POSTS.forEach(function(p){
     (p.tags||[]).forEach(function(t){
-      if(isYear(t)) return;
-      var k = t.trim();
-      if(!map[k]) map[k] = 0;
-      map[k]++;
+      var k = String(t).trim();
+      if(!k) return;
+      map[k] = (map[k]||0) + 1;
     });
   });
-  return Object.keys(map).sort(function(a,b){ return a.localeCompare(b); })
-    .map(function(k){ return {name:k, count:map[k]}; });
+  // deal/trend tags A–Z first, then year tags newest first
+  return Object.keys(map).sort(function(a,b){
+    var ya=isYear(a), yb=isYear(b);
+    if(ya!==yb) return ya ? 1 : -1;
+    return ya ? b.localeCompare(a) : a.localeCompare(b);
+  }).map(function(k){ return {name:k, count:map[k]}; });
 }
-function dealGridHTML(deals, query){
-  return deals.length
-    ? '<div class="deal-grid">'+deals.map(function(d){
-        return '<a class="deal-tile" href="#/deal/'+encodeURIComponent(d.name)+'">'
-          + '<span class="name">'+esc(d.name)+'</span>'
-          + '<span class="count">'+d.count+' post'+(d.count===1?'':'s')+'</span>'
-          + '</a>';
-      }).join("")+'</div>'
-    : '<div class="empty">No deals or trends match “'+esc(query||"")+'”.</div>';
+function postsWithTag(name){
+  var n = name.toLowerCase();
+  return POSTS.filter(function(p){
+    return (p.tags||[]).some(function(t){ return String(t).trim().toLowerCase() === n; });
+  });
+}
+function tagBankHTML(tags, active){
+  var a = (active||"").toLowerCase();
+  return '<div class="tag-bank">' + tags.map(function(t){
+    var on = t.name.toLowerCase() === a;
+    return '<button type="button" class="chip'+(isYear(t.name)?' year':'')+(on?' on':'')+'" data-tag="'+esc(t.name).replace(/"/g,"&quot;")+'" aria-pressed="'+on+'">'
+      + esc(t.name) + '<span class="n">'+t.count+'</span></button>';
+  }).join("") + '</div>';
+}
+function dealResultsHTML(tag, query){
+  var list = tag ? postsWithTag(tag) : POSTS;
+  var note = tag
+    ? '<p class="filter-note">'+list.length+' post'+(list.length===1?'':'s')+' tagged <b>'+esc(tag)+'</b>.</p>'
+    : '';
+  return '<div id="dealResults">' + note + (list.length
+    ? '<div class="grid">'+list.map(postTile).join("")+'</div>'
+    : '<div class="empty">No posts tagged “'+esc(tag)+'” yet.</div>') + '</div>';
 }
 
-function viewDeals(query){
+function viewDeals(query, tag){
   var q = (query||"").trim().toLowerCase();
-  var deals = dealIndex();
-  if(q) deals = deals.filter(function(d){ return d.name.toLowerCase().indexOf(q) !== -1; });
+  var tags = tagIndex();
+  var shown = q ? tags.filter(function(t){ return t.name.toLowerCase().indexOf(q) !== -1; }) : tags;
   return ''
     + '<header class="mast">'
     +   '<h1>Deals and Trends</h1>'
-    +   '<div><p class="tagline">Search for deals and trends to find my historical and ongoing discussions</p></div>'
+    +   '<div id="tagBankWrap">' + (shown.length ? tagBankHTML(shown, tag) : '') + '</div>'
     + '</header>'
     + '<div class="search-row"><input id="dealSearch" type="search" placeholder="Search a deal or trend — Altice, LifeScan, LME…" autocomplete="off" value="'+esc(query||"")+'"></div>'
-    + dealGridHTML(deals, query);
-}
-
-function viewDeal(name){
-  var matches = POSTS.filter(function(p){
-    return (p.tags||[]).some(function(t){ return t.trim().toLowerCase() === name.toLowerCase(); });
-  });
-  var body = matches.length
-    ? '<div class="grid">'+matches.map(postTile).join("")+'</div>'
-    : '<div class="empty">No posts tagged “'+esc(name)+'” yet.</div>';
-  return ''
-    + '<header class="mast">'
-    +   '<h1>'+esc(name)+'</h1>'
-    +   '<div><p class="tagline">'+matches.length+' post'+(matches.length===1?'':'s')+' tagged '+esc(name)+'.</p></div>'
-    + '</header>'
-    + body
-    + '<a class="back" href="#/deals">← All deals and trends</a>';
+    + dealResultsHTML(tag, query);
 }
 
 function viewPost(slug){
@@ -404,11 +419,16 @@ function route(){
     html = viewPost(decodeURIComponent(h.slice(6)));
     nav.home = true;
   } else if(h.indexOf("/deal/") === 0){
-    html = viewDeal(decodeURIComponent(h.slice(6)));
-    nav.deals = true;
+    // old per-tag links now open the Deals and Trends page filtered to that tag
+    location.replace("#/deals?tag=" + encodeURIComponent(decodeURIComponent(h.slice(6))));
+    return;
   } else if(h.indexOf("/deals") === 0){
-    var qi = h.indexOf("?q=");
-    html = viewDeals(qi > -1 ? decodeURIComponent(h.slice(qi+3)) : "");
+    var params = {};
+    (h.split("?")[1]||"").split("&").forEach(function(kv){
+      if(!kv) return; var i = kv.indexOf("=");
+      params[kv.slice(0, i<0 ? kv.length : i)] = i<0 ? "" : decodeURIComponent(kv.slice(i+1));
+    });
+    html = viewDeals(params.q||"", params.tag||"");
     nav.deals = true;
   } else {
     html = viewHome();
@@ -422,16 +442,29 @@ function route(){
 
   var s = document.getElementById("dealSearch");
   if(s){
-    var pos = s.value.length;
-    s.focus(); try{ s.setSelectionRange(pos,pos); }catch(e){}
+    var state = { q: s.value, tag: (function(){ var b=document.querySelector(".tag-bank .chip.on"); return b ? b.getAttribute("data-tag") : ""; })() };
+    var syncURL = function(){
+      var parts = [];
+      if(state.tag) parts.push("tag="+encodeURIComponent(state.tag));
+      if(state.q) parts.push("q="+encodeURIComponent(state.q));
+      history.replaceState(null,"","#/deals" + (parts.length ? "?"+parts.join("&") : ""));
+    };
+    var drawBank = function(){
+      var v = state.q.trim().toLowerCase();
+      var tags = tagIndex().filter(function(t){ return !v || t.name.toLowerCase().indexOf(v) !== -1; });
+      document.getElementById("tagBankWrap").innerHTML = tags.length ? tagBankHTML(tags, state.tag) : '';
+    };
+    var drawResults = function(){
+      document.getElementById("dealResults").outerHTML = dealResultsHTML(state.tag, state.q);
+    };
     s.addEventListener("input", function(){
-      var v = s.value;
-      history.replaceState(null,"","#/deals" + (v ? "?q="+encodeURIComponent(v) : ""));
-      var deals = dealIndex().filter(function(d){
-        return !v.trim() || d.name.toLowerCase().indexOf(v.trim().toLowerCase()) !== -1;
-      });
-      var holder = document.getElementById("app").querySelector(".deal-grid, .empty");
-      if(holder) holder.outerHTML = dealGridHTML(deals, v);
+      state.q = s.value; syncURL(); drawBank();
+    });
+    document.getElementById("tagBankWrap").addEventListener("click", function(e){
+      var b = e.target.closest(".chip[data-tag]"); if(!b) return;
+      var t = b.getAttribute("data-tag");
+      state.tag = (state.tag.toLowerCase() === t.toLowerCase()) ? "" : t;
+      syncURL(); drawBank(); drawResults();
     });
   }
   if(h.indexOf("/deals") !== 0) window.scrollTo(0,0);
