@@ -1,7 +1,7 @@
 ---
 title: Everybody Gets a Blockbuster Moment
 date: 2026-09-23
-tags: [Future, Operational, 2026]
+tags: [Future, Trends, 2026]
 excerpt: In 2000, Reed Hastings and Marc Randolph offered to sell Netflix to Blockbuster for $50 million. Blockbuster said no.
 ---
 
